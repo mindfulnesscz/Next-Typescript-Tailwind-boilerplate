@@ -1,0 +1,30 @@
+@font-face
+  font-family: "Aqua"
+  src: url('../public/aqua.ttf')
+  font-weight: normal
+
+.bkg-video
+  min-height: 100vh
+  min-width: 100vw
+  display: block
+  position: fixed
+  max-width: 199999px
+  top: 50%
+  left: 50%
+  transform: translate(-50%,-50%)
+
+.circle 
+  background: white
+  display: flex
+  align-items: center
+  align-content: center
+  flex-wrap: wrap
+  justify-content: center
+  border-radius: 99999px
+  width: 100vw
+  height: 100vw
+  filter: drop-shadow( 0 0 10rem #0000ff )
+  @media ( min-width: 500px )
+    width: 500px
+    height: 500px
+    filter: drop-shadow( 0 0 20rem #0000ff )
