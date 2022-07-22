@@ -1,5 +1,5 @@
 @import './__variables.css';
-@import './components/countdown.module.sss';
+@import './components/style.module.sss';
 
 @tailwind base;
 @tailwind components;

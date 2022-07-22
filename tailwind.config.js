@@ -7,26 +7,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'aqua': ['"Aqua"', 'Arial', 'sans-serif'],
         'open': ['"Open"', 'sans-serif']
       }
     },
     colors: {
-
-      transparent: 'transparent',
-      current: 'currentColor',
-      chestnut: {
-        DEFAULT: '#582521',
+      webmind: {
+        DEFAULT: '#0032ff',
+        light: '#00acff',
       },
-      dynairix: {
-        DEFAULT: '#000',
-        darkblue: '#0000ff',
-        violet: '#007dff',
-        lightblue: '#00f6ee',
-        green: '#28fa6e'
-      },
-      gray: colors.neutral,
-      white: colors.white,
     }
 
   },
